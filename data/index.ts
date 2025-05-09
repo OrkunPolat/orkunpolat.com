@@ -174,45 +174,61 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Mid Front-end Developer - HollyPalm (09/2024 - Present)",
+      desc: "Customized Shopify stores with Liquid, enhancing dynamic content and UX. Developed interactive features and responsive designs on Shopify. Created custom solutions with Liquid & CSS, achieving a 15% conversion rate increase.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Front-end Developer - Beymen Group (07/2023 - 07/2024)",
+      desc: "Improved SEO with Nuxt.js SSR for Beymen.com. Developed a Vue.js performance evaluation platform. Integrated animations, enhancing UX & mobile compatibility, reducing bounce rate by 30%.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Front-end Developer Intern - Boyner Büyük Mağazacılık (07/2022 - 07/2023)",
+      desc: "Developed reusable React components. Optimized page loads by 30% with React & Next.js. Established SEO-friendly URLs with SSR in Next.js. Integrated with backend via RESTful APIs & GraphQL.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "On Campus Job - Istanbul Bilgi University (11/2021 - 07/2022)",
+      desc: "Assisted in React development for departmental web projects. Enhanced functionality and performance of React-based applications for faculty technology initiatives.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
+    {
+      id: 5,
+      title: "Data and Network Security - Aktüel Sistem Bilgi Teknolojileri (06/2021 - 09/2021)",
+      desc: "Gained hands-on experience in securing P2P connections, understanding vulnerabilities, and implementing protective measures against data breaches and unauthorized access.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
+    }
   ];
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      url: "https://github.com/OrkunPolat"
     },
     {
       id: 2,
       img: "/twit.svg",
+      url: "https://x.com/orkunpolat23"
     },
     {
       id: 3,
       img: "/link.svg",
+      url: "https://www.linkedin.com/in/orkunpolat/"
     },
+    {
+      id: 4,
+      iconComponent: "FaFileAlt",
+      url: "/OrkunPolat2025.pdf",
+      isDownload: true
+    }
   ];

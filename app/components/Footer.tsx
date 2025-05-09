@@ -1,6 +1,6 @@
 import React from 'react'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaLocationArrow, FaFileAlt } from 'react-icons/fa'
 import { socialMedia } from '@/data'
 
 const Footer = () => {
@@ -21,9 +21,22 @@ const Footer = () => {
           <p className="md:text-base text-sm md:font-normal font-light">Copyright © 2024 Orkun Polat</p>
           <div className="flex items-center md:gap-3 gap-6">
             {socialMedia.map((profile) => (
-              <div className="w-10 h-10 mt-5 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300" key={profile.id}>
-                <img src={profile.img} width={20} height={20}/>
-              </div>
+              <a 
+                href={profile.url} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                key={profile.id}
+                download={profile.isDownload ? "OrkunPolat2025.pdf" : undefined}
+                title={profile.isDownload ? "Download CV" : undefined}
+              >
+                <div className="w-10 h-10 mt-5 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:bg-black-300 transition-colors">
+                  {profile.img ? (
+                    <img src={profile.img} width={20} height={20} alt={profile.isDownload ? "Download CV" : `Social Media ${profile.id}`}/>
+                  ) : profile.iconComponent === "FaFileAlt" ? (
+                    <FaFileAlt size={20} color="white" />
+                  ) : null}
+                </div>
+              </a>
             ))}
           </div>
         </div>

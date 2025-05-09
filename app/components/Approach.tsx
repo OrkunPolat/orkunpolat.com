@@ -12,18 +12,18 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="lf dsfsd fsdf sd fsdhfj shfsd fhfdkjhf sjdhf sd fjhsd kjfh fkjhd jsdhfd jksdh jksdh fsdjkh fsdk jhsdkj shjkf sdjhfkj dfhlsdj hfkjdfh jkfdh dkhfsdkj dhfjkd hfkjf hsfdkj hfsdkjfhs kj">
+          title="User-Centric & Strategic Planning"
+          icon={<AceternityIcon order="Strategy" />}
+          description="I focus on creating responsive and dynamic e-commerce solutions, particularly on Shopify. My approach involves understanding user needs to improve SEO, UX, and interactive front-end features, ensuring projects align with web development trends.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
         <Card
-          title="Nisha is Munni"
-          icon={<AceternityIcon order="Phase 2" />}
-          description="lf dsfsd fsdf sd fsdhfj shfsd fhfdkjhf sjdhf sd fjhsd kjfh fkjhd jsdhfd jksdh jksdh fsdjkh fsdk jhsdkj shjkf sdjhfkj dfhlsdj hfkjdfh jkfdh dkhfsdkj dhfjkd hfkjf hsfdkj hfsdkjfhs kj">
+          title="Development with Modern Technologies"
+          icon={<AceternityIcon order="Development" />}
+          description="I utilize Liquid, React, Next.js, and Vue.js to build robust and efficient applications. My expertise extends to creating custom Shopify solutions and staying at the forefront of web development by continuously exploring new tools and techniques.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -36,9 +36,9 @@ const Approach = () => {
          
         </Card>
         <Card
-          title="Munni is Aditi"
-          icon={<AceternityIcon order="Phase 3" />}
-          description="lf dsfsd fsdf sd fsdhfj shfsd fhfdkjhf sjdhf sd fjhsd kjfh fkjhd jsdhfd jksdh jksdh fsdjkh fsdk jhsdkj shjkf sdjhfkj dfhlsdj hfkjdfh jkfdh dkhfsdkj dhfjkd hfkjf hsfdkj hfsdkjfhs kj">
+          title="Continuous Improvement & Collaboration"
+          icon={<AceternityIcon order="Quality" />}
+          description="I believe in iterative development and fostering open communication. I prioritize client collaboration and aim to deliver high-quality results by continuously seeking feedback and making improvements throughout the project lifecycle.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
